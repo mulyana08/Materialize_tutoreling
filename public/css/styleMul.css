@@ -1,0 +1,883 @@
+
+.brand-logo img{
+  margin-top: 12px;
+  margin-left: -30px;
+  height: 40px;
+  width: 130px;
+
+}
+
+.left {
+  margin-left: 110px;
+}
+
+.left a,
+.right a{
+  padding-left: 20px;
+}
+
+body {
+   display: flex;
+   min-height: 100vh;
+   flex-direction: column;
+ }
+
+ main {
+   flex: 1 0 auto;
+ }
+
+.caption h4,
+.slider h3,
+.slider h5,
+.clients h3 {
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+}
+
+.bg img{
+  height: 400px;
+  width: 100%;
+}
+
+
+.bg-1{
+  background-image: url("../img/bg/bg2.png");
+  height: 500px;
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat
+}
+
+.bg-2{
+  background-image: url("../img/bg/bg1.jpg");
+  height: 450px;
+}
+
+.bg-3{
+  background-image: url("../img/bg/bg3.png");
+  height: 450px;
+}
+
+.bg-4{
+  background-image: url("../img/bg/bg4.png");
+  height: 450px;
+}
+
+.bg-5{
+  background-image: url("../img/bg/bg5.png");
+  height: 450px;
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat
+}
+
+.bg-6{
+  background-image: url("../img/bg/bg6.png");
+  height: 230px;
+  margin-top: -5px;
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+}
+
+
+.bg-blog{
+  background-image: url("../img/bg/bg-blog.png");
+  height: auto;
+  margin-top: -18px;
+  margin-bottom: -20px;
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat
+}
+
+.sub-bg-blog{
+  background-image: url("../img/bg/sub-bg-blog.png");
+  margin: 30px 0px 90px 70px;
+  padding-bottom: 30px;
+  height: auto;
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+}
+
+
+.artikel-kanan{
+  margin-right: 40px;
+}
+
+.artikel-kiri{
+  margin-right: 40px !important;
+}
+
+.artikel-kiri .card img{
+  height: 100% !important;
+  width: 90% !important;
+}
+
+.borderr{
+  border-right: 6px solid grey;
+  padding: 30px 15px 0px 0px;
+  height: 350px;
+}
+
+.borderl{
+  border-left: 6px solid grey;
+  padding-left: 15px;
+  margin: -28px;
+  height: 250px;
+}
+
+.borderr .card{
+  width: 90%;
+  margin-left: 30px;
+  margin-top: 25px;
+}
+
+.borderl .card{
+  width: 62%;
+}
+
+
+.bg-about1{
+  background-image: url("../img/bg/bg-about1.png");
+  background-size: 100% 330px;
+  height: 330px;
+  background-position: top;
+  background-repeat:no-repeat;
+}
+
+.bg-about2{
+  background-image: url("../img/bg/bg-about2.png");
+  background-size: 100% 700px;
+  height: 700px;
+  background-position: top;
+  background-repeat:no-repeat;
+}
+
+.bg-about3{
+  background-image: url("../img/bg/bg-about3.png");
+  background-size: 100% 500px;
+  height: 500px;
+  background-position: top;
+  background-repeat:no-repeat;
+}
+
+
+
+.container .bg{
+  padding-top: 50px;
+
+}
+
+.card-panel{
+  height: 30px;
+  border-radius: 15px;
+  margin-top: 50px;
+}
+
+.card-title{
+  font-size: 20px;
+  /* text-align: center; */
+  margin-top: -14px;
+  /* margin-left: -40px; */
+  font-weight: bold;
+}
+
+.col .s4  .offset-s4 img{
+  height: 10px;
+
+}
+
+.col .s12 img{
+  margin-top: 70px;
+  height: 150px;
+  width: 150px;
+}
+
+.konten-panel{
+  width: 300px;
+}
+
+.konten-panel p{
+  margin-top: -10px;
+  font-weight: bold;
+  font-size: 14px;
+  margin-left: 20px;
+}
+
+.cari {
+  border-radius: 30px;
+}
+
+
+.bg-2 img,
+  .bg-3 img,
+  .bg-4 img {
+    margin-top: 130px;
+    height: 200px;
+  }
+
+
+.row .col.s12{
+  font-size: 17px;
+}
+
+  .carousel {
+    height: 300px;
+    width: 500px;
+
+  /* margin-left: 210px; */
+  perspective: 500px;
+}
+
+.testimon .row .col.s12{
+  text-align: -webkit-center;
+}
+
+.carousel img{
+  padding-top: 50px;
+}
+
+.center button{
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+.register button{
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.bg5judul p{
+  margin-top: 5px;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.bg5subjudul p{
+  margin-top: -20px;
+  font-size: 20px;
+}
+
+.line .col.s10{
+  margin-top: -20px;
+  border-bottom: 2px solid #707070;
+  background-color: lightgrey;
+}
+
+.row .line1{
+  margin-top: 20px;
+  border-right: 2px solid #fff;
+  height: 200px;
+}
+
+.judul-cominson span{
+  font-size: 20px;
+  margin-left: 80px;
+  margin-top: 50px;
+}
+
+.android img{
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: -0px;
+
+  margin-right: -40px;
+}
+
+
+.row .col.s6 {
+  margin-top: 80px;
+}
+
+
+.clients img{
+  max-width: 150px;
+  filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.9));
+}
+
+
+.temui-kami{
+  margin-top: 100px;
+}
+
+.icon img{
+  height: 30px;
+  width: 30px;
+  margin-top: 10px !important;
+  margin-left: 13px;
+  margin-right: 5px;
+}
+
+  .fb span{
+    margin-top: -30px !important;
+    margin-left: 5px;
+    font-size: 20px;
+  }
+
+
+  .page{
+    margin-top: 20px;
+  }
+
+  .indate{
+    font-weight: 600;
+    font-size: 15px;
+    float: left;
+    margin-left: -110px;
+  }
+
+  .judul-Page span{
+    font-size: 25px;
+    font-weight: 600;
+
+  }
+
+  .rate{
+    padding-top: 5px;
+      margin-left: -110px;
+  }
+
+  .isi-page span{
+  font-weight: justify;
+  font-size: 14px;
+  }
+
+
+  .card-content p{
+    font-size: 14px;
+  }
+
+  .curriculum {
+    margin-top: 50px;
+    border-top: 5px solid #f57c00;
+    border-radius: 3px;
+  }
+
+  .tabs .indicator{
+    background-color: #f57c00;
+  }
+
+
+  .tabs .tab a:focus, .tabs .tab a:focus.active{
+    border-radius: 3px;
+    background-color: #f57c00;
+    color: #fff;
+  }
+
+  .collapsible{
+    margin-top: 25px;
+  }
+
+  .collection-item i{
+    margin-left: -18px;
+  }
+
+  .element.style {
+    overflow:hidden;
+  }
+
+
+.nav.nav-extended .nav-wrapper{
+  height: 100%;
+}
+
+
+.collapsible{
+  margin-left: 60px;
+}
+
+
+.col .m6 .s12 .card-image img,
+.card-image img{
+  margin: 10px 10px 10px 10px !important;
+  width: 95% !important;
+}
+
+
+.judul-about h3{
+  padding-top: 13px;
+  letter-spacing : -2px;
+}
+
+.isi-about p{
+  padding-top: 13px;
+  font-size: 19px;
+}
+
+
+.about-borderr .card-panel{
+  height: 200px;
+  width: 400px;
+  margin-left: 42px;
+  margin-top: 20px;
+}
+
+.about-bordermisi .card-panel{
+  height: 200px;
+  width: 400px;
+  margin-left: -14px;
+  margin-top: 10px;
+}
+
+.about-borderr{
+  margin-top: 40px;
+  border-right: 6px solid white;
+  padding: 30px 15px 0px 0px;
+  height: 350px;
+}
+
+
+.about-bordermisi{
+  border-left: 6px solid white;
+  padding-left: 15px;
+  margin: -29px;
+  height: 265px;
+}
+
+.icon-about-visi img{
+  width: 250px !important;
+  margin: 50px;
+}
+
+.about1-borderr .card-panel{
+  height: 200px;
+  width: 400px;
+  margin-left: 42px;
+  margin-top: 20px;
+}
+
+.icon-about-misi img{
+  width: 250px !important;
+  margin: 10px;
+}
+
+
+.about1-borderr{
+  margin-top: -10px;
+  border-right: 6px solid white;
+  padding: 20px 15px 0px 0px;
+  height: 340px;
+}
+
+.icon-about1-visi img{
+  width: 250px !important;
+  margin: 40px;
+}
+
+
+.judul-misi h5{
+  margin-top: -70px;
+}
+
+
+
+/* UNTUK HP */
+@media screen and (max-width: 992px){
+  .bg-1{
+    background-image: url("../img/bg/bg22.png");
+    height: 300px;
+  }
+
+  .bg-5{
+    background-image: url("../img/bg/bg5.png");
+    height: 250px;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat
+  }
+
+  .bg-3 .video-belajar{
+      margin-left: -70px;
+  }
+
+  .bg-6{
+    background-image: url("../img/bg/bg6.png");
+    height: 200px;
+    margin-top: -1px;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+  }
+
+
+  .bg-blog{
+    background-image: url("../img/bg/bg-blog.png");
+    height: auto;
+    margin-top: -10px;
+    margin-bottom: -20px;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat
+  }
+
+
+  .sub-bg-blog{
+    background-image: url("../img/bg/sub-bg-blog.png");
+    margin: 30px 30px 90px 30px;
+    padding-bottom: 30px;
+    height: auto;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+  }
+
+
+  .artikel-kanan{
+    margin-right: 10px;
+  }
+
+  .artikel-kiri{
+    padding: 0px 20% 80px 20%;
+    margin-top: -80px;
+  }
+
+  .artikel-kiri .card{
+    height: 350px;
+  }
+
+  .artikel-kiri .card img{
+    height: 230px !important;
+    width: 95% !important;
+  }
+
+
+  .borderr{
+    border-right: 6px solid grey;
+    padding: 30px 15px 0px 0px;
+    height: 350px;
+  }
+
+  .borderl{
+    border-left: 6px solid grey;
+    padding-left: 15px;
+    margin: -28px;
+    height: 250px;
+  }
+
+  .borderl .card{
+    width: 64%;
+  }
+
+
+  .bg-about1{
+    background-image: url("../img/bg/bg-about1.png");
+
+    background-size: 100% 330px;
+    height: 330px;
+
+    background-position: top;
+    background-repeat:no-repeat;
+  }
+
+  .about-borderl .card-panel{
+    height: 200px;
+    width: 400px;
+    margin-left: 0px;
+    margin-top: 70px;
+  }
+
+  .judul-about h3{
+    padding-top: 20px;
+    letter-spacing : -2px;
+
+    font-size: 30px;
+  }
+
+  .isi-about p{
+    padding-top: 13px;
+    font-size: 16px;
+  }
+
+
+  .about-borderr{
+    margin-top: 0px;
+    border-right: 0px solid white;
+    padding: 0px 0px 0px 0px;
+    height: auto;
+  }
+
+  .about-bordermisi{
+    margin-top: 0px;
+    border-right: 1px solid white;
+    padding: 0px 0px 0px 0px;
+    height: 0px;
+  }
+
+
+  .about1-borderr{
+    margin-top: 0px;
+    border-right: 0px solid white;
+    padding: 0px 0px 0px 0px;
+    height: auto;
+  }
+
+  .about-bordermisi .judul-misi{
+    margin-top: 80px;
+  }
+
+  .about-bordermisi .card-panel{
+    margin-left: -210px;
+  }
+
+  .icon-about-visi img{
+    width: 0px !important;
+    margin: 40px;
+  }
+
+  .icon-about-misi img{
+    width: 0px !important;
+    margin: 40px;
+  }
+
+  .icon-about1-visi img{
+    width: 0px !important;
+    margin: 0px;
+  }
+
+
+
+  .container .bg{
+    padding-top: 15px;
+  }
+
+  .card-panel{
+    border-radius: 10px;
+    width: 200px;
+    height: 10px;
+    margin-top: 25px;
+  }
+
+  .col .s12 img{
+    margin-top: 40px;
+    margin-left: 30px;
+    height: 100px;
+    width: 100px;
+  }
+
+  .card-title {
+    font-size: 15px;
+    /* text-align: center; */
+    margin-top: -10px;
+    margin-left: -15px;
+  }
+
+
+  .konten-panel{
+    width: 300px;
+  }
+
+  .konten-panel p{
+    font-size: 12px;
+    margin-left: 20px;
+    margin-bottom: -30px;
+  }
+
+
+  .bg-2 img,
+  .bg-3 img,
+  .bg-4 img {
+    height: 130px;
+    margin-top: 0.5%;
+  }
+
+  .card-title p{
+    width: 700px;
+  }
+
+  .row .col.s12{
+    font-size: 14px;
+  }
+
+
+  .carousel {
+    height: 300px;
+    width: 400px;
+    margin-left: 15px;
+    perspective: 500px;
+  }
+
+  .bg5judul p{
+    margin-top: -5px;
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  .bg5subjudul p{
+    margin-top: -20px;
+    font-size: 15px;
+  }
+
+  .bg5btn button{
+    margin-top: -20px;
+    height: 50px;
+    width: 130px;
+  }
+
+  .bg-5{
+    background-image: url("../img/bg/bg5.png");
+    height: 250px;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat
+  }
+
+  .judul-cominson{
+    margin-top: 30px;
+  }
+
+  .appmobile img{
+    margin-top: 20px;
+  }
+
+  .judul-cominson span{
+    font-size: 15px;
+    margin-left: 8px;
+    margin-top: 70px;
+  }
+
+  .android img{
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-bottom: -20px;
+  }
+
+
+  .row .col.s6 {
+    margin-top: 15px;
+  }
+
+  .footer{
+  text-align: center;
+  }
+
+  .temui-kami{
+    margin-top: 10px;
+  }
+
+
+  .col .m6 .s12 .card-image img,
+  .card-image img{
+    margin: 10px 10px 10px 10px !important;
+    width: 93% !important;
+  }
+
+
+
+
+}
+
+@media screen and (max-width: 600px){
+
+  .bg-5{
+    background-image: url("../img/bg/bg5.png");
+    height: 280px;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat
+  }
+
+  .bg-6{
+    background-image: url("../img/bg/bg6.png");
+    height: 160px;
+    margin-top: -1px;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+  }
+
+  .row .line1{
+    margin-left: 35px;
+    margin-top: 20px;
+    border-right: 0px solid #fff;
+    border-bottom: 2px solid #fff;
+    height: 0px;
+    width: 450px;
+  }
+
+  .artikel-kiri{
+    padding: 0px 5% 80px 15%;
+    margin-top: -80px;
+  }
+
+  .borderr{
+    border-right: 0px solid grey;
+    padding: 0px 0px 0px 0px;
+    height: auto;
+  }
+
+  .borderl{
+    border-left: 0px solid grey;
+    padding-left: 0px;
+    margin: 0px;
+    height: auto;
+  }
+
+  .borderr .card{
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .borderl .card{
+    width: 100%;
+  }
+
+  .judul-about h3{
+    padding-top: 20px;
+    letter-spacing : -2px;
+
+    font-size: 25px;
+  }
+
+  .isi-about p{
+    padding-top: 10px;
+    font-size: 14px;
+  }
+
+
+  .about-bordermisi .judul-misi{
+    margin-top: -150px;
+  }
+
+  .about-bordermisi .card-panel{
+    margin-left: 70px;
+  }
+
+
+}
+
+@media screen and (max-width: 560px){
+  .row .line1{
+    margin-left: 18px;
+    margin-top: 20px;
+    border-right: 0px solid #fff;
+    border-bottom: 2px solid #fff;
+    height: 0px;
+    width: 430px;
+  }
+
+}
+
+@media screen and (max-width: 535px){
+  .row .line1{
+    margin-left: 15px;
+    margin-top: 20px;
+    border-right: 0px solid #fff;
+    border-bottom: 2px solid #fff;
+    height: 0px;
+    width: 430px;
+  }
+
+}
+
+@media screen and (max-width: 500px){
+  .row .line1{
+    margin-left: 15px;
+    margin-top: 20px;
+    border-right: 0px solid #fff;
+    border-bottom: 2px solid #fff;
+    height: 0px;
+    width: 400px;
+  }
+
+}
