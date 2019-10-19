@@ -122,7 +122,7 @@
                  <div class="col s12 m5">
                    <div class="card-panel white">
                      <span class="black-text">Melayani Program Praktik Berbahasa Inggris
-                      Online 24/7 Tanpa Batas yang Memfokuskan 
+                      Online 24/7 Tanpa Batas yang Memfokuskan
                       Pada Pemerolehan Kemahiran Berbicara
                       Untuk Berbagai Situasi dan Persiapan Tes
                        Bahasa Inggris Internasional Secara Optimal.
@@ -144,6 +144,15 @@
 
       </div>
     </div>
+  </div>
+</section>
+
+<section class="about4">
+  <div class="container">
+    <h6 class="light center grey-text text-darken-3">
+      Jl. Kamboja No. 1 Tuparev, Kedawung, Kab.  Cirebon, Indonesia 45153
+      <br>No. HP : 08121887119 (Call/WA)
+    </h6>
   </div>
 </section>
 

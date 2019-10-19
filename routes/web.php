@@ -24,3 +24,5 @@ Route::get('/courses', 'CourseController@index')->name('courses');
 Route::get('/blog', 'BlogController@index')->name('blog');
 
 Route::get('/about', 'AboutController@index')->name('about');
+
+Route::get('/news', 'NewsController@index')->name('news');

@@ -49,7 +49,7 @@
                    <ul class="left hide-on-med-and-down">
                      <li><a href="{{route("courses")}}">Course</a></li>
                      <li><a href="{{route("blog")}}">Blog</a></li>
-                     <li><a href="#services">News</a></li>
+                     <li><a href="{{route("news")}}">News</a></li>
                      <li><a href="{{route("about")}}">About Use</a></li>
                    </ul>
 
@@ -104,8 +104,8 @@
           <ul class="sidenav" id="mobile-nav">
             <li><a href="{{route("courses")}}">Course</a></li>
             <li><a href="{{route("blog")}}">Blog</a></li>
-            <li><a href="#services">News</a></li>
-            <li><a href="#portfolio">About Use</a></li>
+            <li><a href="{{route("news")}}">News</a></li>
+            <li><a href="{{route("about")}}">About Use</a></li>
             <li><a href="#about">Login</a></li>
             <li><a href="#clients">Register</a></li>
           </ul>

@@ -470,6 +470,157 @@ body {
   margin-top: -70px;
 }
 
+.about4 h6{
+  line-height: 2;
+  margin-bottom: 40px;
+  word-spacing: 4px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+.bg-news1{
+  background-image: url("../img/bg/bg-news1.png");
+  background-size: 100% 550px;
+  height: 550px;
+  background-position: top;
+  background-repeat:no-repeat;
+}
+
+.judul-bg-news1 p{
+  margin-top: 70px;
+  margin-left: 220px;
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+}
+
+.imgline-1 img{
+  position: relative;
+  width: 75%;
+  height: auto;
+  margin-top: 180px;
+  margin-left: 30%;
+}
+
+.imgline-1 h5{
+  position: absolute;
+  top: 45%;
+  right: 50%;
+  left: 20%;
+  font-size: 25px;
+  line-height: 2;
+  word-spacing: 4px;
+}
+
+.icon-bg-news1 img{
+  position: relative;
+  width: 85%;
+  height: auto;
+  margin-top: 150px;
+  margin-left: 10%;
+}
+
+.icon-bg-news2 img{
+  position: absolute;
+  width: 10%;
+  height: auto;
+  margin-top: 150px;
+  margin-left: 7%;
+}
+
+
+.img-1 {
+  position: absolute;
+}
+
+.img-1 .text-center1 {
+  position: absolute;
+  top: -25%;
+  left: 63%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.img-1 .text-center2 {
+  position: absolute;
+  top: 0px;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+}
+
+.kunjungi{
+  position: absolute;
+  left: 63%;
+  top: 25%;
+  border-radius: 15px;
+}
+
+
+.img-1 img {
+  margin-top: -230px;
+  margin-left: 35%;
+  width: 60%;
+  height: 40%;
+
+}
+
+
+.bg-news2{
+  background-image: url("../img/bg/bg-news2.png");
+  background-size: 100% 700px;
+  height: 700px;
+  background-position: top;
+  background-repeat:no-repeat;
+}
+
+.imgline-2 img{
+  position: relative;
+  width: 80%;
+  height: auto;
+  margin-top: 100px;
+  margin-left: 25%;
+}
+
+.icon-bg2-news2 img{
+  position: absolute;
+  width: 10%;
+  height: auto;
+  margin-top: -15px;
+  margin-left: 15%;
+}
+
+
+.bg-news3{
+  background-image: url("../img/bg/bg-news3.png");
+  background-size: 100% 500px;
+  height: 500px;
+  background-position: top;
+  background-repeat:no-repeat;
+}
+
+.imgline-3 img{
+  position: relative;
+  width: 80%;
+  height: auto;
+  margin-top: 100px;
+  margin-left: 20%;
+}
+
+.bg-news4{
+  background-image: url("../img/bg/bg-news4.png");
+  background-size: 100% 500px;
+  height: 500px;
+  background-position: top;
+  margin-top: -2px;
+  margin-bottom: -2px;
+  background-repeat:no-repeat;
+}
+
+
+
 
 
 /* UNTUK HP */
@@ -763,6 +914,69 @@ body {
   }
 
 
+  .about4 h6{
+    line-height: 2;
+    margin-bottom: 40px;
+    word-spacing: 3px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+
+
+
+  .bg-news1{
+    background-image: url("../img/bg/bg-news1.png");
+    background-size: 100% 500px;
+    height: 500px;
+    background-position: top;
+    background-repeat:no-repeat;
+  }
+
+  .judul-bg-news1 p{
+    margin-top: 70px;
+    margin-left: 150px;
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+  }
+
+
+  .imgline-1 img{
+    position: relative;
+    width: 75%;
+    height: auto;
+    margin-top: 150px;
+    margin-left: 30%;
+  }
+
+  .imgline-1 h5{
+    position: absolute;
+    top: 45%;
+    right: 50%;
+    left: 20%;
+    font-size: 20px;
+    line-height: 2;
+    word-spacing: 4px;
+  }
+
+  .icon-bg-news1 img{
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-top: 200px;
+    margin-left: 1%;
+  }
+
+
+  .icon-bg-news2 img{
+    position: absolute;
+    width: 12%;
+    height: auto;
+    margin-top: 150px;
+    margin-left: 7%;
+  }
+
 
 
 }
@@ -843,6 +1057,49 @@ body {
     margin-left: 70px;
   }
 
+
+  .judul-bg-news1 p{
+    margin-top: 70px;
+    margin-left: 110px;
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+  }
+
+
+
+
+
+}
+
+
+@media screen and (max-width: 640px){
+
+  .about4 h6{
+    line-height: 1.5;
+    margin-bottom: 35px;
+    word-spacing: 1px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  .imgline-1 h5{
+    position: absolute;
+    top: 45%;
+    right: 50%;
+    left: 20%;
+    font-size: 18px;
+    line-height: 2;
+    word-spacing: 4px;
+  }
+
+  .judul-bg-news1 p{
+    margin-top: 70px;
+    margin-left: 70px;
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+  }
 
 }
 
