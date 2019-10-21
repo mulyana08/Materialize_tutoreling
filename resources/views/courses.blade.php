@@ -7,7 +7,7 @@
 
 <div class="container">
   <div class="row page">
-    <div class="col s12 m9">
+    <div class="col s12 l9">
         <div class="card horizontal materialboxed">
           <div class="card-image">
             <img src="{{asset('img/course/course-page1.png')}}">
@@ -33,6 +33,17 @@
         </div>
       </div>
   </div>
+</div>
+
+<div class="container">
+  <div class="row center">
+    <div class="col l9 s12">
+
+      <a href="{{route("chart")}}" class="waves-effect waves-light btn-large"><i class="material-icons right">add_shopping_cart</i>Berlangganan</a>
+
+    </div>
+  </div>
+
 </div>
 
 <div class="container">

@@ -722,7 +722,61 @@ body {
 
 
 
+.bg-chart1{
+  background-image: url("../img/bg/bg-chart1.png");
+  background-size: 100% 650px;
+  height: 300px;
+  background-position: top;
+  background-repeat:no-repeat;
+}
 
+.judul-chart1 h3{
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+}
+
+.chart{
+  margin-top: -150px;
+}
+
+.course-isi{
+  width: 400px;
+}
+
+.course-isi .card img{
+  height: 100px;
+  width: 400px !important;
+}
+
+
+.jarak-chart-putih{
+  height: auto;
+  margin-bottom: 120px;
+}
+
+
+.chart-pembayaran .card{
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 0px;
+  color: black;
+  height: 120px;
+  width: 100%;
+  z-index: 1;
+  padding-top: 55px;
+  padding-left: 100px;
+}
+
+.total-bayar span{
+  margin-left: -30px;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.btn-pembayaran a{
+  margin-top: -15px;
+  margin-left: -60px;
+  border-radius: 25px;
+}
 
 
 

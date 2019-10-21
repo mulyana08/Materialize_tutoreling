@@ -26,3 +26,5 @@ Route::get('/blog', 'BlogController@index')->name('blog');
 Route::get('/about', 'AboutController@index')->name('about');
 
 Route::get('/news', 'NewsController@index')->name('news');
+
+Route::get('/chart', 'ChartController@index')->name('chart');
