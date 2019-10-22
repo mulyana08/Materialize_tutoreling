@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/', function() {
     return view('welcome');
 });
 
@@ -28,3 +28,5 @@ Route::get('/about', 'AboutController@index')->name('about');
 Route::get('/news', 'NewsController@index')->name('news');
 
 Route::get('/chart', 'ChartController@index')->name('chart');
+
+Route::get('/informasi', 'InformasiController@index')->name('informasi');

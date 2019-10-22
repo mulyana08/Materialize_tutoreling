@@ -3,31 +3,6 @@
 @section('content')
 
 <section>
-  <div class="bg-chart1">
-    <div class="container">
-      <div class="row">
-        <div class="col s12">
-          <div class="judul-chart1 Left">
-            <span> <h3 class="grey-text text-lighten-4">Private Course</h3> </span>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col s12">
-          <div class="linecart">
-            <div class="card">
-              <div class="progress">
-                   <div class="indeterminate"></div>
-               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section>
   <div class="container">
     <div class="chart">
       <form class="col s12">
@@ -164,23 +139,23 @@
         <div class="chart-pembayaran">
           <div class="card">
             <div class="row">
-              <div class="col l4 s12">
+              <div class="col m4">
                 <label>
                   <input id="indeterminate-checkbox" type="checkbox">
                   <span>Pilih Semua</span> <span>1</span>
                 </label>
               </div>
-              <div class="col l3 s12">
+              <div class="col m3">
                 <span>Total untuk Produk</span>
                 (<span>1</span> produk)
               </div>
-              <div class="col l3 s12">
+              <div class="col m3">
                 <div class="total-bayar">
-                  <span>Rp. 600.000,00,-</span>
+                  <span>Rp. 600.000</span>
                 </div>
               </div>
-              <div class="col l2 s12 btn-pembayaran">
-                <a class="waves-effect waves-light btn-large orange darken-3">Pembayaran</a>
+              <div class="col m2 btn-pembayaran">
+                <a href="{{route("informasi")}}" class="waves-effect waves-light btn-large orange darken-3">Pembayaran</a>
               </div>
             </div>
           </div>

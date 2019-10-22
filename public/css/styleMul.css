@@ -780,6 +780,54 @@ body {
 
 
 
+
+
+
+.judul-informasi h6,
+.judul-bank h6{
+  font-weight: bold;
+  padding-left: 40px;
+  margin-top: 20px;
+}
+
+
+
+.garis-informasi{
+  border-right: 2px solid grey;
+  height: 570px;
+  margin-top: 50px;
+  position: absolute;
+}
+
+
+.select-bank{
+  border-style: solid;
+  border-color: #f57c00;
+  height: 60px;
+  width: 80%;
+  border-radius: 10px;
+  margin: 40px 10px;
+}
+
+.select-bank .bank{
+  padding-top: 15px;
+  padding-left: 10px;
+  position: absolute;
+}
+
+.img-bank img{
+  height: 50px;
+}
+
+.btn-bayar a{
+  margin-top: 30px;
+  border-radius: 25px;
+  margin-right: 40px !important;
+}
+
+
+
+
 /* UNTUK HP */
 @media screen and (max-width: 992px){
   .bg-1{
@@ -1325,6 +1373,30 @@ body {
     text-align: justify;
   }
 
+  .jarak-chart-putih{
+    height: auto;
+    margin-bottom: 120px;
+  }
+
+
+  .chart-pembayaran .card{
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 0px;
+    height: 120px;
+    width: 100%;
+    z-index: 1;
+    padding-top: 45px;
+    padding-left: 50px;
+  }
+
+  .total-bayar span{
+    margin-left: -30px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+
 }
 
 
@@ -1688,6 +1760,68 @@ body {
 
 
 
+  .course-isi{
+    width: 0px;
+  }
+
+  .course-isi .card img{
+    height: 100px;
+    width: 0px !important;
+  }
+
+  .jarak-chart-putih{
+    height: auto;
+    margin-bottom: 120px;
+  }
+
+
+  .chart-pembayaran .card{
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 0px;
+    height: 120px;
+    width: 100%;
+    z-index: 1;
+    padding-top: 20px;
+    padding-left: 50px;
+  }
+
+  .total-bayar span{
+    margin-left: -30px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 30px;
+
+  }
+
+  .btn-pembayaran a{
+    margin-top: 0px;
+    margin-left: 50px;
+    border-radius: 25px;
+  }
+
+
+
+
+
+
+
+  .garis-informasi{
+    border-right: 0px solid grey;
+    height: 0px;
+    margin-top: 0px;
+    position: absolute;
+  }
+
+  .btn-bayar a{
+    margin-top: 10px;
+    border-radius: 25px;
+    margin-right: 80px !important;
+    margin-bottom: 50px;
+  }
+
+
+
 }
 
 
@@ -1712,6 +1846,15 @@ body {
     border-bottom: 2px solid #fff;
     height: 0px;
     width: 430px;
+  }
+
+}
+
+@media screen and (max-width: 520px){
+  .btn-pembayaran a{
+    margin-top: -20px;
+    margin-left: 270px;
+    border-radius: 25px;
   }
 
 }

@@ -76,7 +76,36 @@
 
 
         <main class="py-4">
+
+          <!-- Judul Private Course  -->
+            <section>
+            <div class="bg-chart1">
+              <div class="container">
+                <div class="row">
+                  <div class="col s12">
+                    <div class="judul-chart1 Left">
+                      <span> <h3 class="grey-text text-lighten-4">Private Course</h3> </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col s12">
+                    <div class="linecart">
+                      <div class="card">
+                        <div class="progress">
+                             <div class="indeterminate"></div>
+                         </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Kontent Private Course  -->
             @yield('content')
+
         </main>
 
     </div>
@@ -124,6 +153,8 @@
         $('.materialboxed').materialbox();
 
         $('ul.tabs').tabs();
+
+        $('select').formSelect();
 
       });
     </script>
