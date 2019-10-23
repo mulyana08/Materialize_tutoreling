@@ -4,12 +4,11 @@
 
 <section>
   <div class="container">
-
       <div class="chart">
         <div class="card">
           <div class="row">
             <div class="col m6 s12">
-              <form >
+              <form class="activateStepper">
                 <div class="row">
                   <div class="judul-informasi">
                     <h6>Your Information</h6><br>

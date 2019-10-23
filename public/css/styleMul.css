@@ -734,8 +734,18 @@ body {
   text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
 }
 
+.card ul.stepper.horizontal {
+   min-height: 500px;
+}
+
+.stepper{
+  margin-top: -210px;
+}
+
+
 .chart{
-  margin-top: -150px;
+  /* margin-top: -150px; */
+  margin-top:0px;
 }
 
 .course-isi{
@@ -750,7 +760,16 @@ body {
 
 .jarak-chart-putih{
   height: auto;
-  margin-bottom: 120px;
+  /* margin-bottom: 120px; */
+  margin-bottom: 50px;
+}
+
+.jarak-chart-putih1{
+  height: auto;
+  /* margin-bottom: 120px; */
+  position: absolute;
+  left: inherit;
+  margin-left: -200px;
 }
 
 
@@ -781,6 +800,9 @@ body {
 
 
 
+.chart .card {
+  padding-left: 20px;
+}
 
 
 .judul-informasi h6,
@@ -816,15 +838,14 @@ body {
 }
 
 .img-bank img{
-  height: 50px;
+  height: 50px !important;
 }
 
 .btn-bayar a{
   margin-top: 30px;
   border-radius: 25px;
-  margin-right: 40px !important;
+  margin-right: 20px !important;
 }
-
 
 
 
@@ -1378,6 +1399,14 @@ body {
     margin-bottom: 120px;
   }
 
+  .jarak-chart-putih1{
+    height: auto;
+    /* margin-bottom: 120px; */
+    position: absolute;
+    left: inherit;
+    margin-left: -100px;
+  }
+
 
   .chart-pembayaran .card{
     position: fixed;
@@ -1802,10 +1831,6 @@ body {
 
 
 
-
-
-
-
   .garis-informasi{
     border-right: 0px solid grey;
     height: 0px;
@@ -1816,8 +1841,12 @@ body {
   .btn-bayar a{
     margin-top: 10px;
     border-radius: 25px;
-    margin-right: 80px !important;
+    margin-left: 20px;
     margin-bottom: 50px;
+  }
+
+  .chart .card {
+    padding-left: 50px;
   }
 
 

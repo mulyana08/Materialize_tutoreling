@@ -26,7 +26,8 @@
     <!--Import Google Icon Font-->
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
-
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+      <link rel="stylesheet" href="https://unpkg.com/materialize-stepper@3.1.0/dist/css/mstepper.min.css">
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
@@ -78,24 +79,13 @@
         <main class="py-4">
 
           <!-- Judul Private Course  -->
-            <section>
+          <section>
             <div class="bg-chart1">
               <div class="container">
                 <div class="row">
                   <div class="col s12">
                     <div class="judul-chart1 Left">
                       <span> <h3 class="grey-text text-lighten-4">Private Course</h3> </span>
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col s12">
-                    <div class="linecart">
-                      <div class="card">
-                        <div class="progress">
-                             <div class="indeterminate"></div>
-                         </div>
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -112,6 +102,7 @@
 
     <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script src="https://unpkg.com/materialize-stepper@3.1.0/dist/js/mstepper.min.js"></script>
 
 
     <script>
@@ -156,6 +147,10 @@
 
         $('select').formSelect();
 
+        var stepper = document.querySelector('.stepper');
+           var stepperInstace = new MStepper(stepper, {
+
+           })
       });
     </script>
 
