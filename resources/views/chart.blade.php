@@ -8,7 +8,8 @@
   <div class="card">
 
     <ul class="stepper horizontal">
-     <li class="step">
+
+     <li class="step  active">
         <div class="step-title waves-effect">Pilih Produk</div>
         <div class="step-content">
            <!-- Your step content goes here (like inputs or so) -->
@@ -151,7 +152,7 @@
                            <span>Pilih Semua</span> <span>1</span>
                          </label>
                        </div>
-                       <div class="col m3">
+                       <div class="col m3 total-produk">
                          <span>Total untuk Produk</span>
                          (<span>1</span> produk)
                        </div>
@@ -173,7 +174,7 @@
         </div>
      </li>
 
-     <li class="step active">
+     <li class="step">
         <div class="step-title waves-effect">Pembayaran</div>
         <div class="step-content">
            <!-- Your step content goes here (like inputs or so) -->
@@ -311,21 +312,202 @@
         <div class="step-title waves-effect">Summary</div>
         <div class="step-content">
            <!-- Your step content goes here (like inputs or so) -->
-           <div class="step-actions">
-              <!-- Here goes your actions buttons -->
-              <button class="waves-effect waves-dark btn next-step">CONTINUE</button>
+
+           <div class="chart">
+             <div class="card summary">
+               <div class="row">
+                 <div class="col m6 s12">
+                   <form>
+                     <div class="row">
+                       <div class="judul-informasi">
+                         <h6>Thank you. Your order has been received</h6><br>
+                       </div>
+                       <div class="input-field col s10">
+                         <i class="material-icons prefix">account_circle</i>
+                         <input disabled id="disabled" type="text" class="validate" value="3301">
+                         <label for="disabled">ID Order :</label>
+                       </div>
+
+                       <div class="input-field col s10">
+                         <i class="material-icons prefix">account_circle</i>
+                         <input disabled id="disabled" type="text" class="validate" value="24 Oktober 2019">
+                         <label for="disabled">DATE : </label>
+                       </div>
+                       <div class="input-field col s10">
+                         <i class="material-icons prefix">account_circle</i>
+                         <input disabled id="disabled" type="email" class="validate" value="mulyana@gmail.com">
+                         <label for="disabled">EMAIL : </label>
+                       </div>
+                       <div class="input-field col s10">
+                         <i class="material-icons prefix">account_circle</i>
+                         <input disabled id="disabled" type="text" class="validate" value="Local Bank Transfer">
+                         <label for="disabled">PAYMENT METHOD</label>
+                       </div>
+                     </div>
+                   </form>
+                 </div>
+
+                 <div class="col m1 s12">
+                   <div class="line">
+                     <div class="garis-aktivasi">
+
+                     </div>
+                   </div>
+                 </div>
+
+                 <div class="col m5 s12">
+                   <div class="judul-informasi">
+                     <h6>COURSE YANG DIPILIH</h6><br>
+                     <span><h5>2 Course Sekali Bayar</h5> </span>
+                   </div>
+
+                   <div class="jumlah-harga-course">
+
+                     <div class='note rounded'>
+                          <h4>Rp 600.000,-</h4>
+                     </div>
+                   </div>
+
+                   <div class="select-bank">
+                     <div class="img-bank left">
+                       <img src="{{asset('img/icon/bni.png')}}" class="responsive-img">
+                     </div>
+                     <label class="rek">
+                       <span class="noRek">0229953737</span><br>
+                       <span><p class="nameRek">Faisal Akbar</p></span>
+                     </label>
+                   </div>
+
+                  <div class="">
+                     <div class="row">
+                       <div class="col s12">
+                         <div class="btn-aktivasi">
+                           <a class="waves-effect waves-light btn-large deep-orange accent-4 btn previous-step">Kembali</a>
+                           <a class="waves-effect waves-light btn-large orange darken-3 btn next-step">Selanjutnya</a>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+
+                 </div>
+               </div>
+             </div>
            </div>
+
+
+           <!-- <div class="step-actions">
+              Here goes your actions buttons
+              <button class="waves-effect waves-dark btn next-step">CONTINUE</button>
+           </div> -->
         </div>
      </li>
 
      <li class="step">
-        <div class="step-title waves-effect waves-dark">Aktivasi</div>
+        <div class="step-title waves-effect">Aktivasi</div>
         <div class="step-content">
            <!-- Your step content goes here (like inputs or so) -->
-           <div class="step-actions">
-              <!-- Here goes your actions buttons -->
-              <button class="waves-effect waves-dark btn next-step" data-feedback="someFunction">CONTINUE</button>
+
+           <div class="chart">
+             <div class="card summary">
+               <div class="row">
+                 <div class="col m5 s12">
+                   <form>
+                     <div class="row">
+                       <div class="judul-informasi">
+                         <h6></h6><br>
+                       </div>
+                       <div class="input-field col s10">
+                         <i class="material-icons prefix">account_circle</i>
+                         <input disabled id="disabled" type="text" class="validate" value="3301">
+                         <label for="disabled">ID Order :</label>
+                       </div>
+
+                       <div class="input-field col s10">
+                         <i class="material-icons prefix">account_circle</i>
+                         <input disabled id="disabled" type="text" class="validate" value="24 Oktober 2019">
+                         <label for="disabled">Jumlah : </label>
+                       </div>
+
+                       <div class="input-field col s10">
+                         <i class="material-icons prefix">account_circle</i>
+                         <label class="bank">
+                         </label>
+                         <div class="img-bank right">
+                           <img src="{{asset('img/icon/bni.png')}}" class="responsive-img">
+                         </div>
+                         <label for="disabled">Kirim Bank : </label>
+                       </div>
+
+                     </div>
+                   </form>
+                 </div>
+
+                 <div class="col m1 s12">
+                   <div class="line">
+                     <div class="garis-finish">
+
+                     </div>
+                   </div>
+                 </div>
+
+                 <div class="col m6 s12">
+                   <div class="judul-informasi">
+                     <h6></h6><br>
+                   </div>
+
+                    <div class="bukti-tf">
+
+                      <form action="#">
+                        <div class="input-field col s10">
+                          <i class="material-icons prefix">account_circle</i>
+                            <select>
+                              <option value="" >Select Provinsi</option>
+                              <option value="1">Option 1</option>
+                              <option value="2">Option 2</option>
+                              <option value="3">Option 3</option>
+                            </select>
+                          </div>
+
+                          <div class="input-field col s10">
+                            <i class="material-icons prefix">account_circle</i>
+                            <input id="disabled" type="text" class="validate">
+                            <label for="disabled">Nama Pengirim : </label>
+                          </div>
+
+                          <div class="file-field input-field col s10">
+                            <div class="btn">
+                              <span>File</span>
+                              <input type="file" multiple>
+                            </div>
+                            <div class="file-path-wrapper">
+                              <input class="file-path validate" type="text" placeholder="Upload one or more files">
+                            </div>
+                           </div>
+
+                         <div class="">
+                            <div class="row">
+                              <div class="col s12">
+                                <div class="btn-aktivasi">
+                                  <a class="waves-effect waves-light btn-large deep-orange accent-4 btn previous-step">Kembali</a>
+                                  <a class="waves-effect waves-light btn-large orange darken-3 btn next-step">Kirim</a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                      </form>
+
+                    </div>
+
+                 </div>
+               </div>
+             </div>
            </div>
+
+
+           <!-- <div class="step-actions">
+              Here goes your actions buttons
+              <button class="waves-effect waves-dark btn next-step">CONTINUE</button>
+           </div> -->
         </div>
      </li>
 

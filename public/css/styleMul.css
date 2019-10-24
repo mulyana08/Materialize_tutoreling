@@ -828,7 +828,7 @@ body {
   height: 60px;
   width: 80%;
   border-radius: 10px;
-  margin: 40px 10px;
+  margin: 30px 10px;
 }
 
 .select-bank .bank{
@@ -845,6 +845,106 @@ body {
   margin-top: 30px;
   border-radius: 25px;
   margin-right: 20px !important;
+}
+
+
+
+
+
+.garis-aktivasi{
+  border-right: 2px solid grey;
+  height: 390px;
+  margin-top: 50px;
+  margin-left: -20px;
+  position: absolute;
+}
+
+.select-bank .img-bank{
+  margin-left: 5px;
+  padding-right: 15px;
+
+}
+
+.select-bank .rek span.noRek{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.select-bank .rek p{
+  font-size: 15px;
+  margin-top: -5px !important;
+}
+
+
+.btn-aktivasi {
+  margin-top: 10px !important;
+}
+
+.btn-aktivasi a{
+  margin-top: 20px;
+  border-radius: 25px;
+  margin-right: 20px !important;
+  margin-bottom: 40px;
+}
+
+
+
+/* KERETAS LIPAT */
+
+.jumlah-harga-course {
+  margin-left: -70px;
+}
+
+.jumlah-harga-course h4{
+  padding: 0px 10%;
+}
+
+.note {
+   position:relative;
+   width:85%;
+   padding:1em 1em;
+   margin:2em auto;
+   color:#fff;
+   background:#f57c00;
+   overflow:hidden;
+   margin-left: 20px;
+}
+.note:before {
+   content:"";
+   position:absolute;
+   bottom:0;
+   left:0;
+   border-width:16px 16px 0 0;
+   border-style:solid;
+   border-color: #e65100 #e65100 #fff #fff;
+   background:#e65100;
+   -webkit-box-shadow: 1px 1px 0 rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
+   -moz-box-shadow: 1px 1px 0 rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
+   box-shadow: 1px 1px 0 rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
+   display:block; width:0; /* Firefox 3.0 damage limitation */
+}
+.note.rounded {
+   -webkit-border-radius:5px 5px 5px 0;
+   -moz-border-radius:5px 5px 5px 0;
+   border-radius:5px 5px 5px 0;
+}
+.note.rounded:before {
+   border-width:15px;
+   border-color: transparent transparent #fff #fff ;
+   -webkit-border-bottom-left-radius:10px;
+   -moz-border-radius:0 5px 0 0;
+   border-radius:0 5px 0 0;
+}
+
+
+
+
+.garis-finish{
+  border-right: 2px solid grey;
+  height: 300px;
+  margin-top: 50px;
+  margin-left: -20px;
+  position: absolute;
 }
 
 
@@ -1407,6 +1507,11 @@ body {
     margin-left: -100px;
   }
 
+  .btn-pembayaran a{
+    margin-top:-10px;
+    margin-left: -220px;
+    border-radius: 25px;
+  }
 
   .chart-pembayaran .card{
     position: fixed;
@@ -1809,23 +1914,28 @@ body {
     bottom: 0;
     margin-bottom: 0px;
     height: 120px;
-    width: 100%;
+    width: 620px;
     z-index: 1;
     padding-top: 20px;
-    padding-left: 50px;
+    padding-left: 30px;
+  }
+
+  .chart-pembayaran label{
+    margin-left: 50px;
   }
 
   .total-bayar span{
-    margin-left: -30px;
+    margin-left: -235px;
     font-size: 20px;
     font-weight: bold;
     padding-left: 30px;
+    line-height: 5;
 
   }
 
   .btn-pembayaran a{
-    margin-top: 0px;
-    margin-left: 50px;
+    margin-top: 20px;
+    margin-left: -100px;
     border-radius: 25px;
   }
 
@@ -1838,6 +1948,14 @@ body {
     position: absolute;
   }
 
+  .garis-aktivasi{
+    border-right: 0px solid grey;
+    height: 0px;
+    margin-top: 0px;
+    position: absolute;
+  }
+
+
   .btn-bayar a{
     margin-top: 10px;
     border-radius: 25px;
@@ -1849,7 +1967,14 @@ body {
     padding-left: 50px;
   }
 
+  .jumlah-harga-course h4{
+    padding: 0px 10%;
 
+  }
+
+  .jumlah-harga-course{
+    margin-left: -20px;
+  }
 
 }
 
@@ -1879,14 +2004,7 @@ body {
 
 }
 
-@media screen and (max-width: 520px){
-  .btn-pembayaran a{
-    margin-top: -20px;
-    margin-left: 270px;
-    border-radius: 25px;
-  }
 
-}
 
 @media screen and (max-width: 500px){
   .row .line1{
