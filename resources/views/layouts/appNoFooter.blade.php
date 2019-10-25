@@ -148,9 +148,12 @@
         $('select').formSelect();
 
         var stepper = document.querySelector('.stepper');
-           var stepperInstace = new MStepper(stepper, {
+        var stepperInstace = new MStepper(stepper);
 
-           })
+         $('.datepicker').datepicker();
+
+         $('.modal').modal();
+
       });
     </script>
 

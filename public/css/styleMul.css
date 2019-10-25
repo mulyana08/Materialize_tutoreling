@@ -841,10 +841,14 @@ body {
   height: 50px !important;
 }
 
+.btn-bayar{
+  margin-top: 150px !important;
+}
+
 .btn-bayar a{
   margin-top: 30px;
   border-radius: 25px;
-  margin-right: 20px !important;
+  margin-right: 10px !important;
 }
 
 
@@ -883,7 +887,7 @@ body {
 .btn-aktivasi a{
   margin-top: 20px;
   border-radius: 25px;
-  margin-right: 20px !important;
+  margin-right: 10px !important;
   margin-bottom: 40px;
 }
 
@@ -1949,6 +1953,13 @@ body {
   }
 
   .garis-aktivasi{
+    border-right: 0px solid grey;
+    height: 0px;
+    margin-top: 0px;
+    position: absolute;
+  }
+
+  .garis-finish{
     border-right: 0px solid grey;
     height: 0px;
     margin-top: 0px;
